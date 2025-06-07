@@ -41,7 +41,7 @@ Ce projet a pour objectif de moderniser l’infrastructure numérique** de l’i
 
 ## 📝 Remarques
 
-> Ce prototype a été conçu **à des fins pédagogiques**, toutes les configurations sont manuelles et documentées dans le PDF joint(proxmox-vpn-infra.pdf). 
+> Ce prototype a été conçu **à des fins pédagogiques**, toutes les configurations sont manuelles et documentées dans le PDF joint[Descargar el manual en PDF](proxmox-vpn-infra.pdf). 
 
 ---
 
