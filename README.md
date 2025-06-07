@@ -39,3 +39,37 @@ Ce projet a pour objectif de moderniser l’infrastructure numérique** de l’i
 
 ## 📂 Structure du dépôt
 
+proxmox-vpn-infra/
+├── README.md
+├── doc/
+│ └── projet-infrastructure.pdf
+├── config/
+│ ├── openvpn-server.conf
+│ ├── exports-nfs.conf
+│ └── my.cnf
+├── scripts/
+│ ├── install-proxmox.sh
+│ ├── deploy-vpn.sh
+│ ├── deploy-nfs.sh
+│ └── backup-mysql.sh
+├── screenshots/
+│ ├── proxmox-dashboard.png
+│ └── openvpn-client.png
+└── diagrams/
+├── er-diagramme.png
+└── vlan-network.png
+
+---
+
+## 📝 Remarques
+
+> Ce prototype a été conçu **à des fins pédagogiques**, toutes les configurations sont manuelles et documentées dans le PDF joint. :contentReference[oaicite:16]{index=16}
+
+---
+
+## 🧑‍💻 Auteur
+
+**Iñaki Spinardi**  
+Étudiant ASIR | Passionné par l’administration système, le réseau et le développement web.  
+
+
