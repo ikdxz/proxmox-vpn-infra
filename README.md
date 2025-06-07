@@ -18,22 +18,22 @@ Ce projet a pour objectif de moderniser l’infrastructure numérique** de l’i
 ## 📚 Architecture & Composants clés
 
 1. **Proxmox VE**  
-   - Installation et configuration initiale sur serveur dédié. VLANs isolées pour diffusion en classes ASIR. :contentReference[oaicite:10]{index=10}  
+   - Installation et configuration initiale sur serveur dédié. VLANs isolées pour diffusion en classes ASIR
 2. **Machines virtuelles**  
    - Serveur VPN (OpenVPN)  
    - Serveur NFS pour partage de dossiers professeurs/étudiants  
    - Serveur de base de données MySQL/MariaDB  
    - VM Xubuntu légères pour accès clients  
 3. **Réseau & Sécurité**  
-   - VLAN 10/20, ACLs, NAT et iptables-persistent pour redirection des ports (SSH, NFS, HTTP/S, VPN). :contentReference[oaicite:11]{index=11}  
+   - VLAN 10/20, ACLs, NAT et iptables-persistent pour redirection des ports (SSH, NFS, HTTP/S, VPN).
 4. **Configuration VPN**  
-   - PKI avec Easy-RSA, certificats client/server, push des routes DNS. :contentReference[oaicite:12]{index=12}  
+   - PKI avec Easy-RSA, certificats client/server, push des routes DNS.
 5. **Partage NFS**  
-   - Exports configurés pour professeurs et étudiants, permissions POSIX et montage automatique. :contentReference[oaicite:13]{index=13}  
+   - Exports configurés pour professeurs et étudiants, permissions POSIX et montage automatique.
 6. **Base de données**  
-   - Modèle entité-relation (1NF–3NF), sauvegarde via `mysqldump`, export CSV/XML, contrôle d’accès par rôles et IP. :contentReference[oaicite:14]{index=14}  
+   - Modèle entité-relation (1NF–3NF), sauvegarde via `mysqldump`, export CSV/XML, contrôle d’accès par rôles et IP.
 7. **Génération Web**  
-   - Transformation XML → HTML par XSLT pour publication des tables (Professeurs, Étudiants, Notes). :contentReference[oaicite:15]{index=15}  
+   - Transformation XML → HTML par XSLT pour publication des tables (Professeurs, Étudiants, Notes).
 
 
 
@@ -41,13 +41,12 @@ Ce projet a pour objectif de moderniser l’infrastructure numérique** de l’i
 
 ## 📝 Remarques
 
-> Ce prototype a été conçu **à des fins pédagogiques**, toutes les configurations sont manuelles et documentées dans le [DF joint](proxmox-vpn-infra.pdf). 
+> Ce prototype a été conçu **à des fins pédagogiques**, toutes les configurations sont manuelles et documentées dans le [PDF joint](proxmox-vpn-infra.pdf). 
 
 ---
 
-## 🧑‍💻 Auteur
+## 🧑‍💻 Auteurs
 
-**Iñaki Spinardi**  
-Étudiant ASIR | Passionné par l’administration système, le réseau et le développement web.  
+Ce projet a été réalisé par **Iñaki Spinardi et Oliver Ramajo**.
 
 
