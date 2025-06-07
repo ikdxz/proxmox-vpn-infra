@@ -35,29 +35,7 @@ Ce projet a pour objectif de moderniser l’infrastructure numérique** de l’i
 7. **Génération Web**  
    - Transformation XML → HTML par XSLT pour publication des tables (Professeurs, Étudiants, Notes). :contentReference[oaicite:15]{index=15}  
 
----
 
-## 📂 Structure du dépôt
-
-proxmox-vpn-infra/
-├── README.md
-├── doc/
-│ └── projet-infrastructure.pdf
-├── config/
-│ ├── openvpn-server.conf
-│ ├── exports-nfs.conf
-│ └── my.cnf
-├── scripts/
-│ ├── install-proxmox.sh
-│ ├── deploy-vpn.sh
-│ ├── deploy-nfs.sh
-│ └── backup-mysql.sh
-├── screenshots/
-│ ├── proxmox-dashboard.png
-│ └── openvpn-client.png
-└── diagrams/
-├── er-diagramme.png
-└── vlan-network.png
 
 ---
 
