@@ -1,6 +1,6 @@
 # 🧠 Projet d’Infrastructure IT avec Proxmox, VPN, NFS et Bases de Données
 
-Ce projet a pour objectif de moderniser l’infrastructure numérique** de l’institut Plaiaundi, en proposant un environnement technique **innovant et résilient**. Réalisé dans le cadre de ma formation ASIR, il sert de démonstration pour des journées portes ouvertes et met en valeur mes compétences en administration système et réseau. :contentReference[oaicite:9]{index=9}
+Ce projet a pour objectif de moderniser l’infrastructure numérique** de l’institut Plaiaundi, en proposant un environnement technique **innovant et résilient**. Réalisé dans le cadre de ma formation ASIR, il sert de démonstration pour des journées portes ouvertes et met en valeur mes compétences en administration système et réseau.
 
 ---
 
